@@ -14,3 +14,14 @@ console.log(typeof estudante);
 // MÉTODOS DE EXIBIÇÃO
 
 alert("Bem-vindo ao Sistema")
+
+let nomeUsuario = prompt("Qual é o nome do usuário")
+
+// `` ${} = concatenação
+console.log(`Olá, ${nomeUsuario}`)
+
+let desejaContinuar = confirm("Deseja Realmente Continuar?")
+
+console.log("Resposta Verdadeira",desejaContinuar)
+
+/* Metodos de exbição */
